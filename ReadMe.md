@@ -1,6 +1,6 @@
-# SkillSync
+# SkillXSync
  
-SkillSync is a **full-stack web application** for managing workshop bookings and one-on-one meetings. The backend is built with **Spring Boot**, and the frontend is built with **React** and **Tailwind CSS**. It uses **Spring Security** for authentication, **PostgreSQL** for data storage, and the **Google Calendar API** for scheduling. The application ensures all bookings occur on weekdays (Monday to Friday) between 07:00 and 17:00.
+SkillXSync is a **full-stack web application** for managing workshop bookings and one-on-one meetings. The backend is built with **Spring Boot**, and the frontend is built with **React** and **Tailwind CSS**. It uses **Spring Security** for authentication, **PostgreSQL** for data storage, and the **Google Calendar API** for scheduling. The application ensures all bookings occur on weekdays (Monday to Friday) between 07:00 and 17:00.
  
 ---
  
@@ -114,18 +114,18 @@ SkillSync is a **full-stack web application** for managing workshop bookings and
 1.  Clone the repository:
      
     
-        git clone https://github.com/your-repo/skillsync.git
-        cd skillsync/backend
+        git clone https://github.com/your-repo/skillxsync.git
+        cd skillxsync/backend
         
     
 2.  Set up PostgreSQL:
      
-    *   Create a database named `skillsync`.
+    *   Create a database named `skillxsync`.
          
     *   Update the `application.properties` file with your database credentials:
          
         
-            spring.datasource.url=jdbc:postgresql://localhost:5432/skillsync
+            spring.datasource.url=jdbc:postgresql://localhost:5432/skillxsync
             spring.datasource.username=your-username
             spring.datasource.password=your-password
             spring.jpa.hibernate.ddl-auto=update
@@ -237,54 +237,3 @@ Deploy the Spring Boot application to a cloud platform like **AWS**, **Heroku**,
 ### **Frontend**
  
 Deploy the React application to a static hosting service like **Netlify** or **Vercel**.
- 
----
- 
-
-## **Contributing**
- 
-
-1.  Fork the repository.
-     
-2.  Create a new branch:
-     
-    
-        git checkout -b feature/your-feature
-        
-    
-3.  Commit your changes:
-     
-    
-        git commit -m "Add your feature"
-        
-    
-4.  Push to the branch:
-     
-    
-        git push origin feature/your-feature
-        
-    
-5.  Open a pull request.
-     
-
----
- 
-
-## **License**
- 
-This project is licensed under the MIT License. See the [LICENSE](https://chatgpt.com/c/LICENSE)  file for details.
- 
----
- 
-
-## **Contact**
- 
-For questions or feedback, please contact:
- 
-
-*   **Your Name**: [your-email@example.com](mailto:your-email@example.com) 
-     
-*   **Project Repository**: [https://github.com/your-repo/skillsync](https://github.com/your-repo/skillsync) 
-     
-
----
